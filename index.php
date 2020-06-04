@@ -1,11 +1,8 @@
 <?php
-if (!isset($_SESSION))
-{
-    $listArchiveImage = new RecursiveDirectoryIterator("uploads");
-}
+$listArchiveImage = new RecursiveDirectoryIterator("uploads");
 ?>
 <!doctype html>
-<html lang="pt-br">a
+<html lang="pt-br">
 
 <head>
   <!-- Required meta tags -->
